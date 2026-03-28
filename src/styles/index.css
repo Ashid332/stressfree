@@ -1,0 +1,79 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* SFA Glassmorphism Components */
+.sfa-glass-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sfa-3d-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 28px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.sfa-3d-card:hover {
+  box-shadow: 
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    0 0 60px currentColor;
+}
+
+.sfa-gradient-btn {
+  background: linear-gradient(135deg, #4ECFB3 0%, #72A6F5 100%);
+  border: none;
+  box-shadow: 0 0 30px rgba(78, 207, 179, 0.4);
+  transition: all 0.3s ease;
+}
+
+.sfa-gradient-btn:hover {
+  box-shadow: 0 0 50px rgba(78, 207, 179, 0.6);
+}
+
+.sfa-ghost-btn {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+}
+
+.sfa-ghost-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(78, 207, 179, 0.3);
+}
+
+/* Perspective for 3D carousel */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0F1E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4ECFB3 0%, #72A6F5 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #5CD9C3 0%, #82B6FF 100%);
+}
