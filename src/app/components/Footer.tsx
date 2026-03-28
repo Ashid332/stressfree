@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter, Sparkles } from 'lucide-react';
 import { useState } from 'react';
-import logoImage from 'figma:asset/57e7f8de8c10fe24d8c6006eb979991e2f041261.png';
+import logoImage from '../../assets/57e7f8de8c10fe24d8c6006eb979991e2f041261.png';
 
 export function Footer() {
   const [email, setEmail] = useState('');
