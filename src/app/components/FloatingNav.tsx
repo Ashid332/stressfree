@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Sparkles, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logoImage from '../../assets/57e7f8de8c10fe24d8c6006eb979991e2f041261.png';
+import logoImage from '../../assets/logo.png';
 
 export function FloatingNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
